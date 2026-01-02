@@ -13,13 +13,23 @@
     <header>
 
       <p>
-        <img src="../assets/images/logo.svg" alt="">
+        <img src="../assets/images/logo.svg" alt="Sun logo">
         Weather Now
       </p>
 
-      <select name="units" id="unit-select">
-        <option value="">Units</option>
+      <div class="unit-select-container">
+
+        <div class="units-container" id="units-container">
+          <img src="assets/images/icon-units.svg" alt="icon gear" class="icon-units">
+          <p class="units-p">Units</p>
+          <img src="assets/images/icon-dropdown.svg" alt="icon dropdown">
+        </div>
+
+      <select name="units" id="units-select">
+        <option value="p">Switch to Imperial</option>
+        <option value="p">Temperature</option>
       </select>
+      </div>
 
     </header>
 
@@ -35,11 +45,9 @@
 </head>
 <body>
 
-  Units
+  
 
-  Switch to Imperial/Metric
-
-  Temperature
+  
 
   Celsius (°C)
   Fahrenheit (°F)
