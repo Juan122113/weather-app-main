@@ -5,16 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="main.js"></script>
   
   <title>Frontend Mentor | Weather app</title>
+</head>
+
+<body>
 
   <main>
 
     <header>
 
       <p>
-        <img src="../assets/images/logo.svg" alt="Sun logo">
-        Weather Now
+        <img src="../assets/images/logo.svg" alt="Logo of a sun and the words Weather Now">
+        <!-- Weather Now -->
       </p>
 
       <div class="unit-select-container">
@@ -25,44 +30,31 @@
           <img src="assets/images/icon-dropdown.svg" alt="icon dropdown">
         </div>
 
-      <select name="units" id="units-select">
+      <select name="units" id="units-select" class="select-measures">
+        <!-- <optgroup label="Units">Unit</optgroup> -->
         <option value="p">Switch to Imperial</option>
-        <option value="p">Temperature</option>
+        <optgroup value="temperature" label="Temperature">
+          <option value="">Celsius (°C)</option>
+          <option value="">Fahrenheit (°F)</option>
+        </optgroup>
+        <optgroup value="Wind Speed" label="Wind Speed">
+          <option value="">km/h</option>
+          <option value="">mph</option>
+        </optgroup>
+        <optgroup value="Precipitation" label="Precipitation">
+          <option value="">Millimeters (mm)</option>
+          <option value="">Inches (in)</option>
+        </optgroup>
+        
       </select>
       </div>
 
     </header>
 
+    <h1>How's the sky looking today?</h1>
+
   </main>
 
-
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  
-
-  
-
-  Celsius (°C)
-  Fahrenheit (°F)
-
-  Wind Speed
-
-  km/h
-  mph
-
-  Precipitation
-
-  Millimeters (mm)
-  Inches (in)
-
-  How's the sky looking today?
 
   Search for a city, e.g., New York
   Search
