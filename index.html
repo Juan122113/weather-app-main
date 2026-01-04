@@ -53,29 +53,55 @@
 
     <h1>How's the sky looking today?</h1>
 
+    <form action="">
+      <input type="text" id="search" name="search" placeholder="Search for a place...">
+      <button>Search</button>
+    </form>
+
+    <div class="main-content">
+      <div class="main-info">
+        <div class="loc-date-cont">
+          <h2 class="localization"></h2>
+          <p class="date"></p>
+        </div>
+        <div class="weather-container">
+          <img src="" alt="" class="weather-icon">
+          <h2 class="degrees"></h2>
+        </div>
+      </div>
+
+      <div class="additional-info">
+        <div class="feels-like">
+          <p class="title-additional-info">Feels like</p>
+          <p class="info-additional-info"></p>
+        </div>
+        <div class="feels-like">
+          <p class="title-additional-info">Humidity</p>
+          <p class="info-additional-info"></p>
+        </div>
+        <div class="feels-like">
+          <p class="title-additional-info">Wind</p>
+          <p class="info-additional-info"></p>
+        </div>
+        <div class="feels-like">
+          <p class="title-additional-info">Precipitation</p>
+          <p class="info-additional-info"></p>
+        </div>
+      </div>
+
+      <div class="daily-forecast">
+        <h3 class="daily-forecast-h3">Daily forecast</h3>
+      </div>
+    </div>
+
+    <div class="hourly-forecast">
+      <div class="hourly-forecast-header">
+        <h3 class="hourly-forecast-title">Hourly forecast</h3>
+        <select name="" id="" class="hourly-forecast-select"></select>
+      </div>
+    </div>
+
   </main>
-
-
-  Search for a city, e.g., New York
-  Search
-
-  Feels like
-  <!-- Insert temperature here -->
-
-  Humidity
-  <!-- Insert humidity here -->
-
-  Wind
-  <!-- Insert wind here -->   
-  
-  Precipitation
-  <!-- Insert precipitation here -->
-
-  Daily forecast
-  <!-- Insert daily forecast for the next 7 days here -->
-
-  Hourly forecast
-  <!-- Insert hourly forecast for the selected day here -->
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
