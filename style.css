@@ -23,7 +23,9 @@
 }
 
 body {
-  background-color: var(--Blue-500);
+  background-color: var(--Neutral-900);
+  color: var(--Neutral-0);
+  font-size: 18px;
 }
 
 header {
@@ -31,10 +33,26 @@ header {
     justify-content: space-between;
 }
 
+.logo {
+  width: 5rem;
+  height: 3rem;
+}
+
 .units-container {
     display: flex;
     justify-content: space-around;
-    width: 5rem;
+    /*width: 6rem;*/
+    /* height: 3rem;*/
+}
+
+.icon-units {
+  height: 1rem;
+  width: 1rem;
+}
+
+.icon-dropdown {
+  height: 1rem;
+  width: 1rem;
 }
 
 .select-measures {
