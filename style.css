@@ -1,4 +1,9 @@
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 :root {
   
 /* Neutral */
@@ -41,18 +46,23 @@ header {
 .units-container {
     display: flex;
     justify-content: space-around;
-    /*width: 6rem;*/
-    /* height: 3rem;*/
+    width: 4rem;
+    height: 1.5rem;
+    background-color: var(--Neutral-700);
+    align-items: center;
+    font-size: .7rem;
+    border-radius: 8px;
+    padding: .4rem;
 }
 
 .icon-units {
-  height: 1rem;
-  width: 1rem;
+  height: .5rem;
+  width: .5rem;
 }
 
 .icon-dropdown {
-  height: 1rem;
-  width: 1rem;
+  height: .5rem;
+  width: .5rem;
 }
 
 .select-measures {
