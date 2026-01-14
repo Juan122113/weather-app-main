@@ -1,9 +1,14 @@
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@font-face {
+  font-family: "Bricolage_Grotesque";
+  src: url("/assets/fonts/Bricolage_Grotesque/BricolageGrotesque-VariableFont_opsz\,wdth\,wght.ttf");
 }
+
+@font-face {
+  font-family: "DM_Sans";
+  src: url(/assets/fonts/DM_Sans/DMSans-VariableFont_opsz\,wght.ttf);
+}
+
 :root {
   
 /* Neutral */
@@ -27,6 +32,12 @@
 
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: var(--Neutral-900);
   color: var(--Neutral-0);
@@ -39,20 +50,22 @@ header {
 }
 
 .logo {
-  width: 5rem;
-  height: 3rem;
+  width: 8.5rem;
+  height: 4rem;
+  margin-left: 1rem;
 }
 
 .units-container {
     display: flex;
     justify-content: space-around;
-    width: 4rem;
-    height: 1.5rem;
+    width: 5.5rem;
+    height: 2rem;
     background-color: var(--Neutral-700);
     align-items: center;
-    font-size: .7rem;
+    font-size: 1rem;
     border-radius: 8px;
     padding: .4rem;
+    margin: 1rem;
 }
 
 .icon-units {
@@ -66,7 +79,7 @@ header {
 }
 
 .select-measures {
-    /* display: none; */
+    display: none;
 }
 
 
