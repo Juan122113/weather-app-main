@@ -62,26 +62,34 @@ header {
     height: 2rem;
     background-color: var(--Neutral-700);
     align-items: center;
-    font-size: 1rem;
+    font-size: .9rem;
     border-radius: 8px;
     padding: .4rem;
     margin: 1rem;
+    font-family: "DM_Sans", sans-serif;
 }
 
 .icon-units {
-  height: .5rem;
-  width: .5rem;
+  height: .85rem;
+  width: .85rem;
 }
 
 .icon-dropdown {
-  height: .5rem;
-  width: .5rem;
+  height: .6rem;
+  width: .6rem;
 }
 
 .select-measures {
     display: none;
 }
 
+.title {
+  text-align: center;
+  font-family: "Bricolage_Grotesque", sans-serif;
+  font-size: 3.3rem;
+  padding: 1.8rem;
+  line-height: 3.84rem;
+}
 
 .attribution { 
     font-size: 11px;
