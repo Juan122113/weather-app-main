@@ -66,7 +66,7 @@ header {
     border-radius: 8px;
     padding: .4rem;
     margin: 1rem;
-    font-family: "DM_Sans", sans-serif;
+    font-family: 'DM Sans', 'Inter', 'Roboto', 'Verdana', Arial, sans-serif;
 }
 
 .icon-units {
@@ -85,7 +85,7 @@ header {
 
 .title {
   text-align: center;
-  font-family: "Bricolage_Grotesque", sans-serif;
+  font-family: 'Bricolage Grotesque', 'Inter', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
   font-size: 3.3rem;
   padding: 1.8rem;
   line-height: 3.84rem;
