@@ -5,7 +5,7 @@
 }
 
 @font-face {
-  font-family: "Bricolage_Grotesque";
+  font-family: "Bricolage_Grotesque_Bold";
   src: url("/assets/fonts/Bricolage_Grotesque/static/BricolageGrotesque-Bold.ttf");
 }
 
@@ -33,6 +33,8 @@
 /* Blue */
 
 --Blue-500: hsl(233, 67%, 56%);
+/* --Blue-500:	rgb(68, 85, 218); */
+/* --Blue-500:	#4455DA; */
 --Blue-700: hsl(248, 70%, 36%);
 
 }
@@ -97,7 +99,7 @@ header {
 
 .title {
   text-align: center;
-  font-family: 'Bricolage_Grotesque', 'Inter', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Bricolage_Grotesque_Bold', 'Inter', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
   font-size: 3.3rem;
   padding: 1.8rem 0;
   line-height: 3.84rem;
@@ -117,7 +119,7 @@ header {
   background-image: url(assets/images/icon-search.svg);
   background-repeat: no-repeat;
   background-position: 7% 50%;
-  font-size: 1.3rem;
+  font-size: 1.25rem;
   /* padding-left: 3.5rem; */
   padding-left: 17%;
   color: var(--Neutral-0);
@@ -128,6 +130,7 @@ header {
   border: none;
   /* font-weight: 800; */
   margin-top: 1.2rem;
+  opacity: .7;
 }
 
 .input-search::placeholder {
@@ -146,13 +149,46 @@ header {
   font-size: 1.25rem;
   font-family: 'DM_Sans', 'Inter', 'Roboto', 'Verdana', Arial, sans-serif;
   font-weight: 500;
+  color: white;
 }
 
 .main-info {
-  background-color: var(--Blue-500);
-  height: 10rem;
+  /* background-color: var(--Blue-500); */
+  background-image: url("assets/images/bg-today-small.svg");
+  height: 17.8rem;
   margin-top: 2rem;
   border-radius: 20px;
+  text-align: center;
+  /* font-family: "Bricolage_Grotesque"; */
+  font-family: 'DM_Sans', 'Inter', 'Roboto', 'Verdana', Arial, sans-serif;
+}
+
+.localization {
+  /* margin-top: 20rem; */
+  padding-top: 2.51rem;
+  font-size: 1.79rem;
+}
+
+.date {
+  padding-top: .5rem;
+  opacity: .7;
+  font-size: 1.15rem;
+}
+
+.temperature {
+  background-image: url("assets/images/icon-sunny.webp");
+  background-size: 10rem;
+  /* background-size: 100%; */
+  background-repeat: no-repeat;
+  /* width: 4rem; */
+  /* text-align: center; */
+  margin: auto;
+  background-position-y: 50%;
+  background-position: 10% 50%;
+  font-size: 7rem;
+  font-family: "Bricolage_Grotesque", 'Inter', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  /* font-family: "DM_Sans"; */
+  /* font-weight: 100; */
 }
 
 .attribution { 
